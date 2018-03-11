@@ -3,6 +3,8 @@ Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
 ReleasesFolder=
+ReleaseVaultGUID=
+ReleaseVaultName=
 ChannelDesignatorFormatString=$Component_$RoomName
 ChannelRoomLevelSeperator=_
 OpenOutputs=1
@@ -28,11 +30,9 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Light Sensor Node
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
-LinkedManagedProjectGUID=
-IncludeDesignInRelease=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -53,7 +53,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IQFTUFKR
 
 [Document2]
 DocumentPath=1. Libraries\Light Sensor Node.SchLib
@@ -70,7 +70,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=XBEEHAUF
 
 [Document3]
 DocumentPath=2. SCH\Light Sensor Node.SchDoc
@@ -175,194 +175,29 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [ProjectVariant1]
-UniqueID=0ED3E1F4-40DC-4F5A-925F-245944BD7DF1
 Description=Light Sensor Node
 AllowFabrication=0
 ParameterCount=0
 VariationCount=0
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Light Sensor Node\Design Rule Check - Light Sensor Node.html
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\bottom_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\bottom_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\bottom_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\bottom_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\mechanical_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\mechanical_2\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\mechanical_4\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\mechanical_15\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\mid-layer_1\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\mid-layer_2\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\top_layer\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\top_overlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\top_paste\features
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\top_solder\features
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Output Data\Fabrication\NC Drill Files\Light Sensor Node.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Output Data\Fabrication\NC Drill Files\Light Sensor Node.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.REP
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Output Data\Fabrication\ODB++ Files\Light Sensor Node.REP
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Output Data\Fabrication\Gerber Files\Light Sensor Node.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Output Data\Fabrication\NC Drill Files\Light Sensor Node.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument38]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument39]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument40]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument41]
-DocumentPath=Output Data\Fabrication\ODB++ Files\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
 ConstraintFileCount=0
 ReleaseItemId=
+CurrentRevision=
 Variant=[No Variations]
+GenerateBOM=1
 OutputJobsCount=0
-ContentTypeGUID=
-ConfigurationType=
 
 [Generic_EDE]
-OutputDir=Project Outputs for Light Sensor Node
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
+TargetPrinter=Canon MP480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -374,112 +209,47 @@ OutputName2=XSpice Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=CadnetixNetlist
-OutputName3=Cadnetix Netlist
+OutputType3=SIMetrixNetlist
+OutputName3=SIMetrix
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=CalayNetlist
-OutputName4=Calay Netlist
+OutputType4=SIMPLISNetlist
+OutputName4=SIMPLIS
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=EDIF
-OutputName5=EDIF for PCB
+OutputType5=Verilog
+OutputName5=Verilog File
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=EESofNetlist
-OutputName6=EESof Netlist
+OutputType6=VHDL
+OutputName6=VHDL File
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=IntergraphNetlist
-OutputName7=Intergraph Netlist
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=MentorBoardStationNetlist
-OutputName8=Mentor BoardStation Netlist
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=MultiWire
-OutputName9=MultiWire
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-OutputType10=OrCadPCB2Netlist
-OutputName10=Orcad/PCB2 Netlist
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=PADSNetlist
-OutputName11=PADS ASCII Netlist
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Pcad
-OutputName12=Pcad for PCB
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=PCADnltNetlist
-OutputName13=PCADnlt Netlist
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Protel2Netlist
-OutputName14=Protel2 Netlist
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=ProtelNetlist
-OutputName15=Protel
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=RacalNetlist
-OutputName16=Racal Netlist
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=RINFNetlist
-OutputName17=RINF Netlist
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SciCardsNetlist
-OutputName18=SciCards Netlist
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-OutputType19=TangoNetlist
-OutputName19=Tango Netlist
-OutputDocumentPath19=
-OutputVariantName19=
-OutputDefault19=0
-OutputType20=TelesisNetlist
-OutputName20=Telesis Netlist
-OutputDocumentPath20=
-OutputVariantName20=
-OutputDefault20=0
-OutputType21=WireListNetlist
-OutputName21=WireList Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
+TargetPrinter=Canon MP480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -552,17 +322,53 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=PCBDrawing
-OutputName12=Draftsman
+OutputType12=Assembler Source Print
+OutputName12=Assembler Source Prints
 OutputDocumentPath12=
-OutputVariantName12=[No Variations]
+OutputVariantName12=
 OutputDefault12=0
 PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=C Source Print
+OutputName13=C Source Prints
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=C/C++ Header Print
+OutputName14=C/C++ Header Prints
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=C++ Source Print
+OutputName15=C++ Source Prints
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType16=FSM Print
+OutputName16=FSM Prints
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType17=OpenBus Print
+OutputName17=OpenBus Prints
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType18=VHDL Print
+OutputName18=VHDL Prints
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
+TargetPrinter=Canon MP480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -584,7 +390,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
+TargetPrinter=Canon MP480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -656,7 +462,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
+TargetPrinter=Canon MP480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -693,7 +499,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
+TargetPrinter=Canon MP480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -873,7 +679,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
+TargetPrinter=Canon MP480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -903,16 +709,11 @@ OutputName5=Footprint Comparison Report
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=Component states check
-OutputName6=Vault's components states check
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
 
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
+TargetPrinter=Canon MP480 series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -934,42 +735,6 @@ OutputName4=Export STEP
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
-OutputType5=ExportPARASOLID
-OutputName5=Export PARASOLID
-OutputDocumentPath5=
-OutputVariantName5=[No Variations]
-OutputDefault5=0
-OutputType6=ExportVRML
-OutputName6=Export VRML
-OutputDocumentPath6=
-OutputVariantName6=[No Variations]
-OutputDefault6=0
-OutputType7=Save As/Export PCB
-OutputName7=Save As/Export PCB
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-OutputType8=Save As/Export Schematic
-OutputName8=Save As/Export Schematic
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-OutputType9=Specctra Design PCB
-OutputName9=Specctra Design PCB
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-
-[OutputGroup10]
-Name=PostProcess Outputs
-Description=
-TargetPrinter=\\KDSERV02.kdnet.kinneirdufort.com\Electronic Design - Brother HL-4150CDN
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Copy Files
-OutputName1=Copy Files
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [Modification Levels]
 Type1=1
@@ -1050,18 +815,6 @@ Type75=1
 Type76=1
 Type77=1
 Type78=1
-Type79=1
-Type80=1
-Type81=1
-Type82=1
-Type83=1
-Type84=1
-Type85=1
-Type86=1
-Type87=1
-Type88=1
-Type89=1
-Type90=1
 
 [Difference Levels]
 Type1=1
@@ -1107,12 +860,6 @@ Type40=1
 Type41=1
 Type42=1
 Type43=1
-Type44=0
-Type45=1
-Type46=1
-Type47=1
-Type48=1
-Type49=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1226,8 +973,6 @@ Type108=2
 Type109=1
 Type110=1
 Type111=1
-Type112=1
-Type113=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1441,7 +1186,7 @@ ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+ComparisonOptions5=Kind=Code Memory|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
