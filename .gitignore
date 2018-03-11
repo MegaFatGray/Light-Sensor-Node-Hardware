@@ -1,4 +1,7 @@
 # A .gitignore for Altium projects.
 
-# 
-Light Sensor Node Altium Project/__Previews
+/Light Sensor Node Altium Project/History
+
+*.PcbDoc.htm
+*.SchDocPreview
+*.PcbDocPreview
